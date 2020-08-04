@@ -141,3 +141,25 @@ https://blog.csdn.net/zhangkui0418/article/details/82977519
 https://www.cnblogs.com/chizi15/articles/9808336.html
 
 https://zhuanlan.zhihu.com/p/81112053
+
+$ git remote add origin git@github.com:beyondhxl/somedocs.git
+fatal: not a git repository (or any of the parent directories): .git
+
+对应解决方法
+$ git init
+Initialized empty Git repository in D:/somedocs/.git/
+
+
+$ git commit -m"更新"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'PCSetupAccount@L-R90YFQ7W-1223.(none)')
